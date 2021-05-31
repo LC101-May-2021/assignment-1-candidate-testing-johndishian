@@ -3,7 +3,7 @@ const input = require('readline-sync');
 // TODO 2: modify your quiz app to ask 5 questions //
 
 // TODO 1.1a: Define candidateName // 
-let candidateName;
+let candidateName();
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 let question;
 let correctAnswer;
@@ -13,7 +13,7 @@ let correctAnswers;
 let candidateAnswers;
 
 
-function askForName() {
+function askForName(candidateName) {
   // TODO 1.1b: Ask for candidate's name //
 
 }
