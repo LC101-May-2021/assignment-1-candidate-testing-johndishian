@@ -20,6 +20,8 @@ function askForName(candidateName) {
   console.log(What is your name?);
 }
 
+askForName(candidateName);
+
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
   for (let i = 0; i < questions.length; i++) {
@@ -27,6 +29,8 @@ function askQuestion() {
   for (let i = 0; i < candidateAnswer.length; i++) {
     console.log(candidateAnswer[i]);
 }
+    
+askQuestion();
 
 function gradeQuiz(candidateAnswers) {
 
@@ -38,6 +42,8 @@ function gradeQuiz(candidateAnswers) {
 
   return grade;
 }
+    
+gradeQuiz(candidateAnswers);
 
 function runProgram() {
   askForName();
@@ -46,6 +52,8 @@ function runProgram() {
   askQuestion(candidateName)?;
   gradeQuiz(this.candidateAnswers);
 }
+    
+runProgram();
 
 // Don't write any code below this line //
 // And don't change these or your program will not run as expected //
